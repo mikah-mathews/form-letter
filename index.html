@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Letter</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel='stylesheet' type='text/css' href='css/styles.css'>
+  <script src="jquery-3.6.0.js"></script>
+  <script src='js/scripts.js'></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Send me a email</h1>
+    <p>Use this email to recieve a very sweet response from Mr. Robot</p>
+    <form id="formLetter">
+      <label for="receiver">Sent By:</label>
+      <input id="name" type="text" name="receiver">
+      <label for="subject">Subject</label>
+      <input id="subject" type="text" name="subject">
+      <div class="letter">
+        <input class="body" type="text">
+      </div>
+      <button type="submit" class="btn-success">Submit</button>
+    </form>
+    <div class="response">
+      <h3>Mr. Robot Response</h3>
+      <div class="letterName"></div>
+      <p>Re: <span class="letterSubject"></span></p>
+      <p>Hello <span class="letterName"></span>, <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dolor ultricies, dignissim felis vitae, fermentum velit. Integer       vitae  pulvinar urna. Fusce ultrices nulla nunc, sed faucibus erat mattis vel. In sed pulvinar mi. Maecenas viverra tincidunt semper. Phasellus vitae est quam. Ut venenatis   turpis at suscipit pellentesque.
+
+      Fusce elit nunc, auctor eget blandit condimentum, aliquam id lacus. Suspendisse convallis urna est, eu efficitur mi suscipit vel. In sed ipsum sit amet lorem gravida elementum. Nulla facilisi. In hac habitasse platea dictumst. Integer mollis risus non iaculis dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ut nisi eget lectus rhoncus rhoncus et et velit.
+      
+      Vestibulum et augue rhoncus, pulvinar ante ac, molestie dolor. Mauris vulputate nibh quis purus ullamcorper venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum at magna arcu. Mauris mattis, nunc sed convallis mattis, mi enim vehicula est, vitae egestas tellus quam nec dui. Nulla at efficitur tellus, eget ullamcorper lectus. Aenean congue quam id odio pulvinar, a pellentesque ipsum ornare. Praesent in tortor malesuada, porttitor ex sed, hendrerit magna. Duis hendrerit eros nec pulvinar elementum. Sed quis lectus id enim aliquet pulvinar et ac mauris. <br>
+      Sincerely, <br>
+      Mr. Robot</p>
+    </div>
+  </div>
+
+  
+</body>
+</html>
