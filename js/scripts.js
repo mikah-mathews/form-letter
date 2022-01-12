@@ -6,11 +6,11 @@ $(document).ready(function() {
 
     $(".letterName").text(name);
     $(".letterSubject").text(subject);
-    $(".response").show();
+    $(".response").slideDown();
     $("#formLetter").hide();
     $("#formLetter")[0].reset();
     $(".respond").click(function(){
-      $("#formLetter").show();
+      $("#formLetter").slideDown();
       $(".response").hide();
     })
   });
