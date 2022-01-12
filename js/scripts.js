@@ -7,5 +7,11 @@ $(document).ready(function() {
     $(".letterName").text(name);
     $(".letterSubject").text(subject);
     $(".response").show();
+    $("#formLetter").hide();
+    $("#formLetter")[0].reset();
+    $(".respond").click(function(){
+      $("#formLetter").show();
+      $(".response").hide();
+    })
   });
 });

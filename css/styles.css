@@ -1,9 +1,15 @@
 .response{
   display:none;
+  margin:auto;
+}
+form{
+  margin:auto;
+}
+.letter{
+  margin:auto;
 }
 .body{
-  width:1000px;
-  height:1500px;
+  width:600px;
+  height:600px;
   padding:20px
-  
 }
